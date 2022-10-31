@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="pa1.css" />
+
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg">
+            <h1 class="head">Popular Books</h1>
+            <div class="card d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="img">
+                <div class="card1">
+                    <h2 class="head-kalam"> Wings of fire</h2>
+                    <p class="para-kalam"> An autobiography of abdual kalam</p>
+                    <p class="para-kalam">By arun tiwari</p>
+                    <button class="btn btn-primary" onclick="display('sectionkalam')">Read more</button>
+                </div>
+            </div>
+
+            <h1 class="head">Recommended Books</h1>
+            <div class="card-fake d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="img1">
+                <div class="card1">
+                    <h1 class="lol">3 Mistakes of my life</h1>
+                    <p class="lol-para"> Indian auther</p>
+                    <p class="lol-para">By chetan bhagat</p>
+                    <button class="btn btn-primary" onclick="display('sectionlife')">Read more</button>
+                </div>
+            </div>
+
+            <div class="card-fake d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="img1">
+                <div class="card1">
+                    <h1 class="lol">Harry potter</h1>
+                    <p class="lol-para"> American auther</p>
+                    <p class="lol-para">By J.K Rovellin</p>
+                    <button class="btn btn-primary" onclick="display('sectionharry')">Read more</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sectionkalam">
+        <div class="kalam">
+            <center><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="kalam-img"></center>
+            <h1 class="lol"> Wings of Fire </h1>
+            <p class="lol-para"> by arun tiwari</p>
+            <p class="kalam-matter">Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, (born October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong), Indian scientist and politician who played a leading role in the development of India's missile and nuclear weapons programs. He was president of India from 2002 to 2007Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, (born October 15, 1931, Rameswaram, India—died July 27, 2015, Shillong), Indian scientist from 2002 to 2007</p>
+            <center><button class="btn btn-primary" onclick="display('sectionhome')">Back</button><button class="btn btn-secondary">Know More</button></center>
+        </div>
+
+    </div>
+
+    <div id="sectionlife">
+        <div class="kalam">
+            <center><img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="kalam-img"> </center>
+            <h1 class="lol"> The 3 mistakes of my Life </h1>
+            <p class="lol-para"> by chetan</p>
+            <p class="kalam-matter">The 3 Mistakes of My Life is the third novel written by Chetan Bhagat. The book was published in May 2008 and had an initial print-run of 420,000. The novel follows the story of three friends and is based in the city of Ahmedabad in western India. This is the third best seller novel by Chetan Bhagat</p>
+            <center><button class="btn btn-primary" onclick="display('sectionhome')">Back</button><button class="btn btn-secondary">Know More</button></center>
+
+        </div>
+    </div>
+
+    <div id="sectionharry">
+        <div class="kalam">
+            <center><img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="kalam-img"> </center>
+            <h1 class="lol"> Harry Porter </h1>
+            <p class="lol-para"> by American</p>
+            <p class="kalam-matter">J.K. Rowling is the British author who created the popular and critically acclaimed Harry Potter series (seven books published between 1997 and 2007), about a lonely orphan who discovers that he is actually a wizard and enrolls in the Hogwarts School of Witchcraft and Wizardry.</p>
+            <center><button class="btn btn-primary" onclick="display('sectionhome')">Back</button><button class="btn btn-secondary">Know More</button></center>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
